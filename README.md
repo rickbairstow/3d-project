@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+# 3D Project Test
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a quick project to see play around with plugging Cinema 4D models into a JS environment with ThreeJS. Which means I can revitalise my 3d modeling skills!!
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Models
+Export models as `gltf` or `glb`, as this seems to be a common format for use in ThreeJs, I've stored these in `public/models` for use. I've also included the C4D files in the root `models` folder.
+
+## Running locally
+`npm i` then `npm run dev`
